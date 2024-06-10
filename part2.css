@@ -1,0 +1,44 @@
+
+
+#b11id1
+{
+    background-color: blueviolet;
+}
+#b11id2
+{
+    background-color: palevioletred;
+}
+#b11id3
+{
+    background-color: rgb(198, 226, 43);
+}
+#b11id4
+{
+    background-color: rgb(6, 216, 202);
+}
+#b11id5
+{
+    background-color: rgb(46, 226, 43);
+}
+#b11id6
+{
+    background-color: rgb(77, 36, 116);
+}
+#b11id7
+{
+    background-color: rgb(226, 43, 116);
+}
+#b11id8
+{
+    background-color:darkorange;
+}
+.b11{
+    transition-duration: 1s;
+
+}
+.b11:hover{
+    transform: scale(1.04);
+}
+.body3{
+    box-shadow: 0px 0px 50px rgb(224, 216, 231);
+}

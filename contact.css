@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:0.8rem;
+}
+.contact{
+    height: 5rem;
+    /* padding: 1rem ; */
+    font-size: 3rem;
+    font-style:oblique;
+    font-weight: 800;
+    margin-bottom: 1rem; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid beige;
+    width: 700px;
+    box-shadow: 1px 1px 40px rgb(213, 213, 224);
+}
+
+.size
+{
+    /* width: 500px; */
+    height: 2rem;
+    font-size: 1.3rem;
+}
+#textarea
+{
+    width: 700px;
+    height: 20rem;
+}
+#countryType{
+    color: rgb(98, 94, 94);
+}
+section{
+    width: 800px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 45px rgb(218, 194, 240);
+    padding: 3rem;
+    transition-duration: 1s;
+    border-radius: 8px;
+
+    
+}
+#send{
+    background-color: rgb(98, 96, 96);
+    padding: 2px;
+    color: white;
+}
+#send:hover{
+    background-color: rgb(200, 195, 195);
+    color: rgb(38, 38, 37);
+}
+section:hover{
+    transform: scale(1.03);
+}
